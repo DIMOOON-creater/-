@@ -1,0 +1,27 @@
+#contacts {
+    display: flex;
+    gap: 12px;
+    padding: 24px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #1a1a1a;
+}
+
+#contacts h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a1a1a;
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+#contacts a {
+    text-decoration: none;
+    margin-right: 6px;
+}
+
+.mess a::before {
+    content: "❤";
+}

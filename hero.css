@@ -1,0 +1,70 @@
+#hero {
+    padding: 24px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#hero h2 {
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#hero figure {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+#hero figcaption {
+    color: #718096;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#hero img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#hero img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#hero p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #4a5568;
+}
+
+.hero_video {
+    padding: 24px;
+    background-color: #f5f7fa;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+
+.hero_video h3 {
+    font-size: 18ps;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.hero_video h3::before {
+    content: "▶";
+    color: #667eea;
+    font-size: 20px;
+}
+

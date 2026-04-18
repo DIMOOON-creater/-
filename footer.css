@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: rgb(169 175 237);
+    color: #1a1a1a;
+}
+
+footer h4 {
+    font-size: 18px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 6px;
+}
+
+footer a::before {
+    content: "😻";
+}

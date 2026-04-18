@@ -1,0 +1,26 @@
+#skills {
+    padding: 24px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#skills h2 {
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#skills ul {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4a5568;
+}
+
+#skills li::before {
+    content: "⚪";
+}
