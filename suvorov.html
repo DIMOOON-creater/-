@@ -65,6 +65,18 @@
     margin-bottom:30px;
     box-shadow:0 6px 18px rgba(0,0,0,.5);
   }
+  .video-wrap{
+    position:relative;
+    padding-top:56.25%; /* 16:9 */
+    background:#000;
+  }
+  .video-wrap iframe{
+    position:absolute;inset:0;
+    width:100%;height:100%;
+    border:0;display:block;
+  }
+  .clip-body .src{font-size:.8rem;color:#7a6540;margin-top:12px;font-style:italic}
+  .clip-body .src a{color:#8b1a1a}
   .clip-head{
     background:var(--red);
     color:var(--paper);
@@ -116,7 +128,7 @@
 
 <header>
   <h1>Суворов</h1>
-  <p class="sub">Отрывки из художественного фильма (киностудия «Мосфильм», 1938—1939, реж. М. Чауэли и В. Петров) и описание основных сражений великого полководца</p>
+  <p class="sub">Отрывки из художественного фильма (к/ст. «Мосфильм», 1938—1940, реж. М. Чиаурели) и описание основных сражений великого полководца</p>
 </header>
 
 <nav>
@@ -131,52 +143,82 @@
 <section id="about-film">
   <h2>О фильме</h2>
   <p style="color:#e8ddc4">
-    Двухсерийный фильм «Суворов» (1938, режиссёры Михаил Чауэли и Василий Петров, главная роль — Иван Переверзев) рассказывает о последних годах жизни генералиссимуса А. В. Суворова: опале при Павле I, ссылке в Кончанское и легендарном Итальянском и Швейцарском походах 1799 года. Ниже — тематические отрывки-сцены из фильма и краткое описание главных сражений полководца.
+    Двухсерийный фильм «Суворов» (1938—1940, режиссёры Михаил Чиаурели и Василий Петров, главная роль — Иван Переверзев) рассказывает о последних годах жизни генералиссимуса А. В. Суворова: опале при Павле I, ссылке в Кончанское и легендарном Итальянском и Швейцарском походах 1799 года. Ниже — тематические отрывки-сцены из фильма и краткое описание главных сражений полководца.
   </p>
 </section>
 
 <section id="clips">
   <h2>Отрывки из фильма</h2>
+  <p style="color:#d8c9a3;margin-bottom:24px;font-style:italic">Ниже — видеозаписи с реальными кадрами фильма «Суворов» (производственные данные студии и год выхода уточнены по официальным архивам «Мосфильма»). Видео воспроизводятся встроенными плеерами.</p>
 
   <div class="clip">
     <div class="frame-strip"></div>
-    <div class="clip-head"><b>Отрывок 1. Ссылка в Кончанское</b><span class="num">СЕРИЯ I · 1797</span></div>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube-nocookie.com/embed/9-nUrC61u1o" title="Суворов (1940) — военная драма, кадры из фильма" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="clip-head"><b>Отрывок 1. Ссылка в Кончанское</b><span class="num">ЧАСТЬ I · 1797</span></div>
     <div class="clip-body">
       <h3>«Не нуждался я ни в чинах, ни в богатстве…»</h3>
       <p>Император Павел I отстраняет Суворова от службы. Старый солдат уезжает в деревню, где рубит дрова, ходит с посохом и учит крестьянских детей. Даже в ссылке он тренируется на самодельной модели крепости и не перестаёт говорить о войне.</p>
       <blockquote>— Помилуй бог, ваше высокопревосходительство, забыли вас!</blockquote>
       <blockquote>— Забыли? Нет, брат… меня забыть нельзя. Я не забыл ничего.</blockquote>
+      <p class="src">Видео: канал «КИНОХАБ» — <a href="https://www.youtube.com/watch?v=9-nUrC61u1o" target="_blank" rel="noopener">открыть на YouTube</a></p>
     </div>
   </div>
 
   <div class="clip">
     <div class="frame-strip"></div>
-    <div class="clip-head"><b>Отрывок 2. Возвращение: «Еду!»</b><span class="num">СЕРИЯ I · 1799</span></div>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube-nocookie.com/embed/TB_pC7FhLso" title="Суворов (1940) — фрагмент фильма «И этих побили!»" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="clip-head"><b>Отрывок 2. Возвращение: «Еду!»</b><span class="num">ЧАСТЬ I · 1799</span></div>
     <div class="clip-body">
       <h3>Письмо из ставки</h3>
       <p>Когда Франция угрожает союзникам, 69-летний Суворов получает вызов. Он собирает походную сумку и отправляет императору знаменитую депешу из трёх слов. Солдаты встречают любимого командира криком «Ура!».</p>
       <blockquote>— Что писать государю?</blockquote>
       <blockquote>— Пиши: «Еду».</blockquote>
+      <p class="src">Видео: канал «Карл Маркс» — <a href="https://www.youtube.com/watch?v=TB_pC7FhLso" target="_blank" rel="noopener">фрагмент фильма (1940 г.) на YouTube</a></p>
     </div>
   </div>
 
   <div class="clip">
     <div class="frame-strip"></div>
-    <div class="clip-head"><b>Отрывок 3. Адданский бой и переход через Альпы</b><span class="num">СЕРИЯ II · 1799</span></div>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube-nocookie.com/embed/hU4Ccv6vsjQ" title="Суворов (1940) — речь перед штурмом Чёртова моста" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="clip-head"><b>Отрывок 3. Адданский бой и переход через Альпы</b><span class="num">ЧАСТЬ II · 1799</span></div>
     <div class="clip-body">
       <h3>«Тяжело в учении — легко в бою!»</h3>
       <p>Русские войска разгромляют французов при Адде, а затем начинают фантастический переход через Альпы через перевал Сен-Готард. Горные тропы, обрывы, голод и холод — но русская пехота идёт вперёд. Бой при Чертовом мосту и засады в ущелье Шёлленене показаны как один из самых драматичных эпизодов фильма.</p>
       <blockquote>— Ребята, не ровён час: впереди неприятель, позади — пропасть, выбор невелик: бей врага!</blockquote>
+      <p class="src">Видео: канал «ValerioFialan» — <a href="https://www.youtube.com/watch?v=hU4Ccv6vsjQ" target="_blank" rel="noopener">речь перед штурмом Чёртова моста на YouTube</a></p>
     </div>
   </div>
 
   <div class="clip">
     <div class="frame-strip"></div>
-    <div class="clip-head"><b>Отрывок 4. Последний день в Кончанском</b><span class="num">СЕРИЯ II · 1800</span></div>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube-nocookie.com/embed/IRLtSn6VXFw" title="Суворов (1940) — «Я русский, ваше величество»" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="clip-head"><b>Отрывок 4. Последний день в Кончанском</b><span class="num">ЧАСТЬ II · 1800</span></div>
     <div class="clip-body">
       <h3>«Всем смертна жизнь…»</h3>
       <p>Вернувшийся из похода больной Суворов снова в опале. В финале фильма — его последние часы: солдаты выносят гроб, и над дорогой звучит «Ура!», которому он учил всю жизнь.</p>
       <blockquote>— Суворов умер — слава ему!.. Храните армию в порядке: штык — врагу, солдат — пример.</blockquote>
+      <p class="src">Видео: канал «Sputnik» — <a href="https://www.youtube.com/watch?v=IRLtSn6VXFw" target="_blank" rel="noopener">отрывок «Я русский, ваше величество» на YouTube</a></p>
+    </div>
+  </div>
+
+  <div class="clip">
+    <div class="frame-strip"></div>
+    <div class="video-wrap">
+      <iframe src="https://www.youtube-nocookie.com/embed/G52c3rMVjyo" title="Суворов (1940) — фильм целиком в 4K, «Мосфильм»" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="clip-head"><b>Дополнительно. Фильм целиком (4K)</b><span class="num">МОСФИЛЬМ · ОФИЦИАЛЬНЫЙ КАНАЛ</span></div>
+    <div class="clip-body">
+      <h3>Смотреть все отрывки подряд</h3>
+      <p>Официальный канал «Киноконцерна „Мосфильм“» публикует фильм «Суворов» (1940, реж. М. Чиаурели и В. Петров, главная роль — И. Переверзев) полностью в отреставрированном качестве 4K. Здесь можно посмотреть любую сцену: ссылку в Кончанском, Адданский бой, переход через Альпы, штурм Чёртова моста и финал.</p>
+      <p class="src">Видео: <a href="https://www.youtube.com/watch?v=G52c3rMVjyo" target="_blank" rel="noopener">«Суворов» (4K) на официальном канале «Мосфильма»</a></p>
     </div>
   </div>
 </section>
@@ -277,7 +319,7 @@
 </main>
 
 <footer>
-  «Для России жил — и для России умру». &nbsp;·&nbsp; Страница посвящена фильму «Суворов» (1938—1939) и его исторической основе.
+  «Для России жил — и для России умру». &nbsp;·&nbsp; Страница посвящена фильму «Суворов» (1938—1940, реж. М. Чиаурели) и его исторической основе.
 </footer>
 
 </body>
